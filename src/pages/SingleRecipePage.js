@@ -62,7 +62,7 @@ const SingleRecipePage = () => {
       <img
         src={url}
         alt=""
-        className=" object-cover w-96 object-center m-auto rounded-md lg:w-1/3 shadow-lg"
+        className=" object-cover w-96 object-center ml-6 m-auto rounded-md lg:w-1/3 shadow-lg"
       />
 
       <div className="flex flex-col justify-center p-8 flex-grow font-roboto font-medium text-gray-700 tracking-wider lg:w-3/5">
