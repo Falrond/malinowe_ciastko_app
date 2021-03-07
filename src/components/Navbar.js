@@ -33,7 +33,7 @@ const Navbar = () => {
             );
           })}
           <li className="ml-8">
-            <button className="py-2 px-4 font-medium bg-pink-300 text-gray-600 rounded hover:bg-pink-400 ">
+            <button className="hidden py-2 px-4 font-medium bg-pink-300 text-gray-600 rounded hover:bg-pink-400 ">
               Zaloguj
             </button>
           </li>

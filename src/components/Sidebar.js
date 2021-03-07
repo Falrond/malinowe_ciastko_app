@@ -19,7 +19,7 @@ const Sidebar = () => {
           <MdClose />
         </button>
       </div>
-      <ul className="h-60 flex flex-col justify-around items-center uppercase font-staatliches font-medium text-2xl text-gray-600">
+      <ul className="h-60 flex flex-col justify-between items-center uppercase font-staatliches font-medium text-2xl text-gray-600">
         {links.map(link => {
           const { id, text, url } = link;
           return (
@@ -32,7 +32,7 @@ const Sidebar = () => {
         })}{' '}
         <li className="flex-grow w-full">
           <button
-            className="sidebar-element  focus:outline-none"
+            className="sidebar-element hidden focus:outline-none"
             onClick={closeSidebar}
           >
             Zaloguj

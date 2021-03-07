@@ -58,11 +58,11 @@ const SingleRecipePage = () => {
   console.log(rating);
 
   return (
-    <div className="lg:flex min-h-almostFull max-w-screen-xl mx-auto mt-8">
+    <div className="lg:flex min-h-almostFull max-w-screen-xl mt-8 m-auto">
       <img
         src={url}
         alt=""
-        className=" object-cover w-96 object-center ml-6 m-auto rounded-md lg:w-1/3 shadow-lg"
+        className=" object-cover w-2/3 md:w-1/3 rounded-md m-auto md:ml-4 shadow-lg"
       />
 
       <div className="flex flex-col justify-center p-8 flex-grow font-roboto font-medium text-gray-700 tracking-wider lg:w-3/5">
