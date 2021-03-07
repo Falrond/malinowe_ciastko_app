@@ -11,13 +11,15 @@ const AboutPage = () => {
           className="md:w-2/4 lg:w-3/4 object-cover m-auto shadow-md"
         />
       </div>
-      <div className="font-staatliches text-gray-700 text-xl p-6 flex flex-col justify-center lg:w-2/4  items-center">
-        <h1>About Page</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
-          vitae dignissimos cupiditate dolores similique, quidem numquam
-          laboriosam placeat, amet labore velit mollitia facilis ullam ipsa
-          nisi. Quas incidunt enim unde, vel commodi quos consectetur aliquid?
+      <div className="font-roboto text-gray-700 text-xl p-6 flex flex-col justify-center lg:w-2/4  items-center">
+        <h1 className="text-4xl font-medium mb-1">Witaj!</h1>
+        <div className="bg-pink-400 h-0.5 w-1/3 mx-auto mb-6 mt-1 md:w-1/5 lg:w-2/5"></div>
+        <p className=" font-medium tracking-wider">
+          Mam na imię Ola i po prostu lubię słodkie wypieki. MalinoweCiastko to
+          mój sposób na wspólne pieczenie, dzielenie się pomysłami i tworzenie
+          nowych przepisów. Jeśli tak jak ja lubisz spędzać czas w kuchni i
+          obdarowywać słodkościami innych to napewno znajdziesz tu coś dla
+          siebie.
         </p>
       </div>
     </div>
