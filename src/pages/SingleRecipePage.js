@@ -83,7 +83,7 @@ const SingleRecipePage = () => {
               Składniki:{' '}
               <span className="text-gray-500">
                 ({quantity}
-                {Number(quantity) === 1 || category === 'cake'
+                {Number(quantity) === 1 || category === 'ciasta'
                   ? 'szt.'
                   : Number(quantity) > 4
                   ? ' porcji'
