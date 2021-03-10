@@ -9,17 +9,21 @@ import { useRecipesContext } from '../context/recipes_context';
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useRecipesContext();
   return (
-    <div className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}>
+    <div className={` ${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}>
       <div className="sidebar-header">
-        <Link to="/" className="flex" onClick={closeSidebar}>
-          <FaCookieBite className="mr-1 ml-6 text-pinky" />
-          <h2 className="">Malinowe Ciastko</h2>
+        <Link
+          to="/"
+          className="flex border-b-2 ml-6 text-3xl border-pink-300"
+          onClick={closeSidebar}
+        >
+          <FaCookieBite className="mr-1  text-pink-300" />
+          <h2 className="text-3xl tracking-wider">Malinowe Ciastko</h2>
         </Link>
         <button className="mr-6 focus:outline-none" onClick={closeSidebar}>
           <MdClose />
         </button>
       </div>
-      <ul className="h-60 flex flex-col justify-between items-center uppercase font-staatliches font-medium text-2xl text-gray-600">
+      <ul className="h-60 flex flex-col justify-between items-center font-roboto font-medium uppercase text-gray-600">
         {links.map(link => {
           const { id, text, url } = link;
           return (
@@ -30,14 +34,14 @@ const Sidebar = () => {
             </li>
           );
         })}{' '}
-        <li className="flex-grow w-full">
+        {/* <li className="flex-grow w-full">
           <button
             className="sidebar-element hidden focus:outline-none"
             onClick={closeSidebar}
           >
             Zaloguj
           </button>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

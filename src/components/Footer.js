@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex">
         <h3>&copy;{new Date().getFullYear()}</h3>
         <Link to="/" className="flex px-3 items-center">
-          <FaCookieBite className=" text-pinky mr-1" />
+          <FaCookieBite className=" text-pink-300 mr-1" />
           <h2 className="">Malinowe Ciastko</h2>
         </Link>
       </div>

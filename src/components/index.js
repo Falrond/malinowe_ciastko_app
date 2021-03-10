@@ -9,6 +9,7 @@ import Recipe from './Recipe';
 import Rating from './Rating';
 import Filters from './Filters';
 import RecipeList from './RecipeList';
+import SidebarBackground from './SidebarBackground';
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Rating,
   Filters,
   RecipeList,
+  SidebarBackground,
 };

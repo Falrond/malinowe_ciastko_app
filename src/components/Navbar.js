@@ -26,7 +26,7 @@ const Navbar = () => {
             return (
               <li
                 key={id}
-                className="mx-1 px-4 py-2 hover:underline border-pink-400"
+                className="mx-3 px-4 py-2 hover:underline border-pink-400"
               >
                 <Link to={url}>{text}</Link>
               </li>
