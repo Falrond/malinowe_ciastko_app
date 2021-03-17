@@ -18,7 +18,7 @@ const AboutPage = () => {
           Mam na imię Ola i po prostu lubię słodkie wypieki. MalinoweCiastko to
           mój sposób na wspólne pieczenie, dzielenie się pomysłami i tworzenie
           nowych przepisów. Jeśli tak jak ja lubisz spędzać czas w kuchni i
-          obdarowywać słodkościami innych to napewno znajdziesz tu coś dla
+          obdarowywać słodkościami innych to na pewno znajdziesz tu coś dla
           siebie.
         </p>
       </div>
